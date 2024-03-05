@@ -15,7 +15,7 @@ const CityInputCard = ({ setCityInput }) => {
   return (
     <form className='city' onSubmit={handleSubmit}>
     <input className='city__input' ref={inputSearch} type="text" />
-    <button className='city__btn'>Search</button>
+    <button className='city__btn'>Buscar</button>
   </form>
   )
 }

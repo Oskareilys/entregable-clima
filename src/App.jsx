@@ -64,7 +64,7 @@ function App() {
   useEffect(() => {
     if (cityInput) {
       const APIKEY = "79eba2d5ba4f80d4c6558a76fe7f7171";
-      const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=${1}&appid=${APIKEY}`;
+      const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=${1}&appid=${APIKEY}`;
       axios
         .get(url)
         .then((res) => {
